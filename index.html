@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Libra - Home</title>
+      <link rel="icon" href="images/favicon.png" sizes="32x32">
+      <link rel="stylesheet" href="https://use.typekit.net/rbg5cze.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="tailwind.config.js"></script>
+      <script src="https://kit.fontawesome.com/db98e7ed59.js" crossorigin="anonymous"></script>      
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body class="bg-white tk-brother-1816 text-black pt-[80px] 2xl:pt-[140px] font-normal transition-all duration-300">
+      <!-- !! =============================== HEADER START HERE ========================== !! -->
+      <header id="header" class="fixed top-0 w-full z-[99999] bg-white shadow-sm">
+         <div class="header-upper h-[40px] transition-all duration-300 xl:flex items-center hidden xl:block">
+            <div class="container px-4 mx-auto">
+               <div class="w-4/5 ml-auto flex items-center justify-between">
+                  <div class="grow basis-0 hidden xl:block">area riservata</div>
+                  <div class="flex items-center grow basis-0 justify-end xl:justify-between gap-3 xl:gap-0 pl-4 2xl:pl-16">
+                     <div class="flex items-center gap-3 xl:gap-7">
+                        <a href="tel:+3780549872811" class="nav-contact-item flex items-center gap-2">
+                           <div class="nav-contact-img"><img src="images/phone_iphone.svg" alt="iPhone"></div>
+                           <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">+378 0549.872.811</div>
+                        </a>
+                        <a href="mailto:mbox@libraindustriale.com" class="nav-contact-item flex items-center gap-2">
+                           <div class="nav-contact-img"><img src="images/drafts.svg" alt="draft"></div>
+                           <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">mbox@libraindustriale.com</div>
+                        </a>
+                     </div>
+                     <div class="flex items-center">
+                        <div class="dropdown">
+                           <button type="button" class="flex items-center justify-center">
+                              <img src="images/italy-flag.svg" alt="">
+                              <img class="w-4 h-4 ml-2" src="images/arrow-back.svg" alt="">
+                           </button>
+                           <div class="dropdown-content bg-white absolute right-0 mt-2 w-[35px] -left-[7px] shadow bg-white z-[9999]">
+                              <div class="w-full py-1 flex items-center justify-center flex-col" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                 <a href="#" class="w-full p-1 hover:bg-grey flex items-center justify-center">
+                                 <img src="images/italy-flag.svg" alt="">
+                                 </a>
+                                 <a href="#" class="w-full p-1 hover:bg-grey flex items-center justify-center">
+                                 <img src="images/italy-flag.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>  
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-main bg-white xl:bg-red">
+            <nav class="header-navbar h-[80px] xl:h-[100px] transition-all duration-300">
+               <div class="container px-4 mx-auto h-full">
+                  <div class="navbar-inside flex w-full h-full">
+                     <div class="xl:w-1/5 navbar-logo-area xl:pr-[2%] flex items-center bg-white relative xl:before:w-screen xl:before:h-full xl:before:bg-white xl:before:absolute xl:before:right-full xl:before:top-0 xl:before:bottom-0 z-[100]">
+                        <a href="#!" class="header-logo w-[150px] xl:w-[260px]"><img class="w-full" src="images/logo.svg" alt="Logo"></a>
+                     </div>
+                     <div class="w-full xl:w-4/5 collapse navbar-collapse fixed xl:static left-0 xl:pl-[2%] bg-white  overflow-visible xl:bg-transparent rounded-none z-[99] h-screen xl:h-full pt-20 xl:pt-0 pb-10 xl:pb-0">
+                        <div class="w-full h-full xl:gap-6 2xl:gap-12 overflow-y-auto xl:overflow-y-visible xl:flex  px-4 xl:px-0">
+                           <ul class="navbar-nav w-full xl:flex gap-5 2xl:gap-8 xl:flex-row items-center xl:justify-end grow">
+                              <li class="navbar-nav-item h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Home</a>
+                              </li>
+                              <li class="navbar-nav-item h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Azienda</a>
+                              </li>
+                              <li class="navbar-nav-item xl:static h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link w-full relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white xl:leading-tight xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out leading-[45px]">
+                                    Prodotti
+                                    <div class="triggerIcon w-[14px] h-[16px] absolute right-[4px] top-3 xl:hidden flex items-center justify-center">
+                                       <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                       <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                    </div>
+                                 </a>
+                                 <div class="collapse-content-inside xl:opacity-0 xl:invisible w-full xl:bg-red xl:absolute xl:left-0 xl:top-full xl:right-0 z-[999] xl:border-t xl:border-solid xl:border-white xl:pt-12 xl:pb-20">
+                                    <div class="container pl-4 xl:px-4 mx-auto">
+                                       <div class="w-full flex flex-wrap flex-col xl:flex-row py-4 xl:py-0">
+                                          <div class="w-full xl:w-1/5 xl:pl-6 xl:pr-3 order-1">
+                                             <div class="xl:text-white">
+                                                <div class="accor-head font-bold xl:font-normal mb-4 relative pr-6 xl:pr-0">
+                                                   <h4 class="uppercase">Prodotti Per L'ediliza</h4>
+                                                   <div class="triggerIconInside w-[14px] h-[16px] absolute right-1 top-1 xl:hidden flex items-center justify-center" >
+                                                      <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                                      <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                                   </div>
+                                                </div>
+                                                <div class="accor-body pb-4 px-2 xl:pb-0 xl:px-0">
+                                                   <ul>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Grate</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pannelli</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Gradini</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Ancoraggi</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pensiline</a></li>
+                                                   </ul>
+                                                   <div class="mt-4 relative before:w-[25px] before:h-[2px] xl:before:bg-white before:bg-red before:absolute before:top-0 before:left-0 pt-2"><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vedi tutti</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="w-full xl:w-1/5 xl:px-3 order-2">
+                                             <div class="xl:text-white">
+                                                <div class="accor-head font-bold xl:font-normal mb-4 relative pr-6 xl:pr-0">
+                                                   <h4 class="uppercase">Linea</h4>
+                                                   <div class="triggerIconInside w-[14px] h-[16px] absolute right-1 top-1 xl:hidden flex items-center justify-center">
+                                                      <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                                      <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                                   </div>
+                                                </div>
+                                                <div class="accor-body pb-4 px-2 xl:pb-0 xl:px-0">
+                                                   <ul class="column-count-2">
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Linear</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Venus</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Oscura</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Mask</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vulcano</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Conica</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pegaso</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Giunone</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Medusa</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Aurola</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Apollo</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Minerva</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Spazio</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Garden</a></li>
+                                                   </ul>
+                                                   <div class="mt-4 relative before:w-[25px] before:h-[2px] xl:before:bg-white before:bg-red before:absolute before:top-0 before:left-0 pt-2"><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vedi tutti</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="w-full xl:w-2/5 xl:px-3 order-4 xl:order-3">
+                                             <div class="w-full max-w-[440px]">
+                                                <div class="flex flex-col gap-4 xl:gap-6">
+                                                   <div class="flex-grow-item flex bg-red text-white xl:text-black xl:bg-white">
+                                                      <div class="flex-grow-img shrink-0 w-[125px] xl:w-[175px] relative pb-[20%]"><img class="w-full h-full object-cover absolute top-0 left-0" src="images/strip-line-img-1.jpg" alt=""></div>
+                                                      <div class="flex-grow-content grow p-4 xl:py-[24px] xl:pr-[45px] xl:pl-[6%]">
+                                                         <div class="text-[20px] sm:text-[24px] mb-3 xl:text-[28px] 2xl:text-[38px] leading-[1.2] xl:mb-4">Linear</div>
+                                                         <div>
+                                                            <a href="#!" class="text-[16px] sm:text-[20px] leading-[1.5] font-light text-red spring-link relative inline-block me-10 after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                                            Scopri la linea
+                                                            <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                                            <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                                            <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                                            </span>
+                                                            </a>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="flex-grow-item flex bg-red text-white xl:text-black xl:bg-white">
+                                                      <div class="flex-grow-img shrink-0 w-[125px] xl:w-[175px] relative pb-[20%]"><img class="w-full h-full object-cover absolute top-0 left-0" src="images/strip-line-img-4.jpg" alt=""></div>
+                                                      <div class="flex-grow-content grow p-4 xl:py-[24px] xl:pr-[45px] xl:pl-[6%]">
+                                                         <div class="text-[20px] sm:text-[24px] mb-3 xl:text-[28px] 2xl:text-[38px] leading-[1.2] xl:mb-4">Pegaso</div>
+                                                         <div>
+                                                            <a href="#!" class="text-[16px] sm:text-[20px] leading-[1.5] font-light text-red spring-link relative inline-block me-10 after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                                            Scopri la linea
+                                                            <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                                            <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                                            <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                                            </span>
+                                                            </a>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="w-full xl:w-1/5 xl:pl-3 xl:pr-6 order-3 xl:order-4">
+                                             <div class="xl:text-white">
+                                                <div class="accor-head font-bold xl:font-normal mb-4 relative pr-6 xl:pr-0">
+                                                   <h4 class="uppercase">Prodottiper La Riendita  e Carpenteria</h4>
+                                                   <div class="triggerIconInside w-[14px] h-[16px] absolute right-1 top-1 xl:hidden flex items-center justify-center">
+                                                      <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                                      <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                                   </div>
+                                                </div>
+                                                <div class="accor-body pb-4 px-2 xl:pb-0 xl:px-0">
+                                                   <ul>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Grate</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pannelli</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Gradini</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Ancoraggi</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pensiline</a></li>
+                                                   </ul>
+                                                   <div class="mt-4 relative before:w-[25px] before:h-[2px] xl:before:bg-white before:bg-red before:absolute before:top-0 before:left-0 pt-2"><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vedi tutti</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="navbar-nav-item relative h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Settori</a>                             
+                              </li>
+                              <li class="navbar-nav-item relative h-full flex flex-col xl:flex-row"><a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Servizi & Strumenti</a></li>
+                              <li class="navbar-nav-item relative h-full flex flex-col xl:flex-row"><a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Supporto Clienti</a></li>
+                           </ul>
+                           <div class="nav-end xl:text-center flex xl:items-center xl:justify-center shrink-0 mt-4 xl:mt-0">
+                              <a href="#!" class="btn w-full xl:w-max bg-red border-red text-base h-auto text-white uppercase py-4 px-6 font-extrabold xl:text-red xl:bg-white xl:border-white rounded hover:bg-red hover:text-white border-white-important" onclick="my_modal_3.showModal()">Richiedi Preventivo</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="xl:hidden flex items-center grow justify-end gap-3 pr-4">
+                        <div class="flex items-center gap-3 xl:gap-7">
+                           <a href="tel:+3780549872811" class="nav-contact-item flex items-center gap-2">
+                              <div class="nav-contact-img"><img src="images/phone_iphone.svg" alt="iPhone"></div>
+                              <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">+378 0549.872.811</div>
+                           </a>
+                           <a href="mailto:mbox@libraindustriale.com" class="nav-contact-item flex items-center gap-2">
+                              <div class="nav-contact-img"><img src="images/drafts.svg" alt="draft"></div>
+                              <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">mbox@libraindustriale.com</div>
+                           </a>
+                        </div>
+                        <div class="dropdown dropdown-end">
+                           <button type="button" class="flex items-center gap-2">
+                              <img src="images/italy-flag.svg" alt="">
+                              <img src="images/arrow-back.svg" alt="">
+                           </button>
+                           <div class="dropdown-content bg-white absolute right-0 mt-2 w-[40px] shadow bg-white z-[9999]">
+                              <div class="w-full py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                 <a href="#" class="w-full flex items-center justify-center block px-1 py-1 hover:bg-gray-100" role="menuitem">
+                                 <img class="w-4 h-5" src="images/italy-flag.svg" alt="">
+                                 </a>
+                                 <a href="#" class="w-full flex items-center justify-center block px-1 py-1 hover:bg-gray-100" role="menuitem">
+                                 <img class="w-4 h-5" src="images/italy-flag.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="xl:hidden flex items-center ml-auto">
+                        <button type="button" class="navbar-toggler collapsed z-[100] text-3xl text-red">
+                        <span class="navbar-toggler-icon">
+                        <i class="close-nav-icon w-full"><i class="fa-solid fa-bars"></i></i>
+                        <i class="open-nav-icon w-full"><i class="fa-solid fa-xmark"></i></i>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- !! =============================== HEADER END HERE ============================ !! --> 
+      <!-- !! ===============================  Hero Container START HERE ========================== !! -->
+      <div class="hero-container pt-6 md:pt-10">
+         <div class="container px-4 mx-auto">
+            <div class="hero-content-box relative w-full h-[640px] flex items-end">
+               <div class="hero-image-wrapper w-full h-full absolute left-0 right-0 top-0 bottom-0">
+                  <div class="swiper hero-image-slider h-full">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="hero-img-box w-full h-full absolute left-0 right-0 top-0 bottom-0">
+                              <img class="w-full h-full object-cover" src="images/hero.jpg" alt="hero" />
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="hero-img-box w-full h-full absolute left-0 right-0 top-0 bottom-0">
+                              <img class="w-full h-full object-cover" src="https://placehold.co/900x3000" alt="hero" />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="w-full relative z-[15] gap-0 lg:gap-8 flex justify-between flex-col-reverse lg:flex-row">
+                  <div class="flex items-center flex-col sm:flex-row bg-white grow max-w-[1024px]">
+                     <div class="w-full sm:w-[53.5%] flex items-center justify-center font-normal text-[18px] sm:text-[22px] xl:text-[24px] px-[15px] pt-[25px] pb-[10px] sm:py-5 sm:pr-[7%]">Parapetto Linear orizzontale</div>
+                     <div class="w-full sm:w-[46.5%] flex items-center justify-center px-[15px] pt-0 pb-[25px] sm:py-5 sm:pr-[4%]">
+                        <a href="#!" class="text-[18px] lg:text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                        Scopri tutti i nostri prodotti
+                        <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                        <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                        <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                        </span>                
+                        </a>
+                     </div>
+                  </div>
+                  <div class="custom-slider-arrow  w-[160px] self-end flex flex-wrap shrink-0">
+                     <div class="swiper-button-prev after:hidden bg-red grow basis-0 p-6 relative m-0 w-1/2 h-[76px] left-0 flex justify-center items-center top-0 text-white hover:text-red hover:bg-white hover:bg-opacity-25">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M7.65 14L32 14L32 18L7.65 18L18.85 29.2L16 32L1.39876e-06 16L16 -1.39876e-06L18.85 2.8L7.65 14Z" fill="currentColor"/>
+                        </svg>
+                     </div>
+                     <div class="swiper-button-next after:hidden bg-red grow basis-0 p-6 relative m-0 w-1/2 h-[76px] right-0 flex justify-center items-center top-0 text-white hover:text-red hover:bg-white hover:bg-opacity-25">
+                        <svg class="-rotate-180" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M7.65 14L32 14L32 18L7.65 18L18.85 29.2L16 32L1.39876e-06 16L16 -1.39876e-06L18.85 2.8L7.65 14Z" fill="currentColor"/>
+                        </svg>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Hero Container end HERE ========================== !! -->
+      <!-- !! ===============================  Intro Container START HERE ========================== !! -->
+      <div class="intro-container pt-10 md:pt-16 lg:pt-24">
+         <div class="container px-4 mx-auto">
+            <div class="flex flex-wrap flex-col lg:flex-row">
+               <div class="w-full lg:w-8/12 pb-[50px] lg:px-16 lg:py-[65px]">
+                  <div class="w-full max-w-[785px] mx-auto">
+                     <h5 class="text-[24px] sm:text-[28px] md:text-[34px] lg:text-[44px] xl:text-[54px] leading-tight lg:leading-[1.2]">Cancellate, recinzioni e grigliati per l'arredamento esterno degli edifici residenziali ed industriali.</h5>
+                     <div class="mt-7">
+                        <a href="#!" class="text-[24px] md:text-[25px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                        Scopri l’azienda
+                        <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                        <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                        <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                        </span>                
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="w-full lg:w-4/12">
+                  <div class="w-full relative lg:pl-5">
+                     <div class="w-full relative pb-[71%]">
+                        <img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover" src="images/intro-img.jpg" alt="" />
+                        <div class="max-w-[290px] mx-auto pt-[60px] relative z-2 text-[20px] md:text-[24px] xl:text-[28px] leading-[1.3] text-white text-center">Dal 1942 al servizio del cliente</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Intro Container end HERE ========================== !! -->  
+      <!-- !! ===============================  Product Container START HERE ========================== !! -->
+      <div class="home-product-container overflow-hidden pt-10 md:pt-16 lg:pt-24">
+         <div class="container px-4 mx-auto">
+            <div class="w-full flex items-center justify-between mb-8">
+               <div class="text-[15px] sm:text-[24px] lg:text-[28px] 2xl:text-[32px] leading-[1.2]">Prodotti in evidenza</div>
+               <div class="pr-[38px] sm:pr-[55px]">
+                  <a href="#!" class="text-[15px] sm:text-[18px] lg:text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                  Scopri tutti i prodotti 
+                  <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                  <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                  <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                  </span>                
+                  </a>
+               </div>
+            </div>
+            <div class="w-full">
+               <div class="swiper w-full home-product-slider overflow-visible">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full flex flex-col bg-grey">
+                           <div class="w-full relative pb-[99%] border-[2px] border-grey">
+                              <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/products-img.jpg" alt="">
+                              <div class="absolute top-0 left-0 uppercase font-bold bg-green text-dark-black rounded-br-lg text-[12px] 2xl:text-[14px] leading-[92.857%] text-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-br-lg w-[40%] lg:w-[35%] p-[5.3%]">Pronto a magazzino</div>
+                           </div>
+                           <div class="w-full leading-[1.2 p-6 min-h-[174px] flex flex-col">
+                              <div class="text-[24px] font-medium mb-2">Linear orizzontale</div>
+                              <div class="text-[16px] mb-3">Inclinato 30° Passo 100</div>
+                              <div class="text-[14px] font-medium uppercase mt-auto">Linear</div>
+                           </div>
+                           <div class="w-full flex">
+                              <a href="#!" class="w-full h-full py-5 pl-5 pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                              <span class="text-[18px] md:text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Richiedi Preventivo
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-product-prev w-12 h-12 bg-white shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center absolute top-1/2 -translate-y-1/2 z-10 left-0  2xl:-left-[25px]"><img src="images/chevron-arrow-left.svg" alt=""></div>
+                  <div class="swiper-product-next w-12 h-12 bg-white shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center absolute top-1/2 -translate-y-1/2 z-10 right-0 2xl:-right-[15px]"><img src="images/chevron-arrow-right.svg" alt=""></div>
+               </div>
+            </div>
+            <div class="w-full relative mt-10 lg:mt-20 h-2">
+               <div class="swiper-home-pagination bg-grey h-full"></div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Product Container end HERE ========================== !! -->  
+      <!-- !! ===============================  Strip Line Container START HERE ========================== !! -->
+      <div class="strip-line-container overflow-hidden pt-10 md:pt-16 lg:pt-24">
+         <div class="container px-4 mx-auto">
+            <div class="w-full relative">
+               <div class="swiper strip-line-slider overflow-visible">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-1.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-2.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Venus</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-3.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Oscura</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-4.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Mask</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-1.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-2.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-3.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-4.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-1.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-2.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-3.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide w-full max-w-[396px]">
+                        <div class="strip-line-box w-full h-full flex flex-col">
+                           <div class="strip-line-img w-full relative pb-[133.334%]"><img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/strip-line-img-4.jpg" alt=""></div>
+                           <div class="strip-line-content relative z-10 w-full max-w-[255px] mr-[5%] py-[24px] pr-[45px] pl-[6%]  bg-white -mt-[100px]">
+                              <div class="strip-line-title text-[28px] sm:text-[32px] leading-[1.2] mb-4">Linear</div>
+                              <div class="strip-line-btn">
+                                 <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                 Scopri la linea 
+                                 <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                 <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                 <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                 </span>                
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-strip-line-prev w-12 h-12 bg-white shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center absolute top-1/2 -translate-y-1/2 z-10 left-0 2xl:-left-[25px]"><img src="images/chevron-arrow-left.svg" alt=""></div>
+                  <div class="swiper-strip-line-next w-12 h-12 bg-white shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] flex justify-center items-center absolute top-1/2 -translate-y-1/2 z-10 right-0 2xl:-right-[15px]"><img src="images/chevron-arrow-right.svg" alt=""></div>
+               </div>
+            </div>
+            <div class="w-full relative mt-10 lg:mt-20 h-2">
+               <div class="swiper-strip-line-pagination bg-grey h-full"></div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Strip Line Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Grid Card Container START HERE ========================== !! -->
+      <div class="grid-card-container py-10 md:py-10 md:py-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="w-full max-w-[1285px] min-h-[615px] relative mx-auto flex flex-col justify-end items-end">
+               <div class="h-full absolute left-0 top-0 bottom-0 w-full lg:w-[63%]">
+                  <div class="grid-image-row w-full h-full">
+                     <div class="swiper grid-image-slider w-full h-full">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="grid-image-box w-full relative pb-[140%] lg:pb-[75.88%]">
+                                 <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/grid-card-img.jpg" alt="">
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="grid-image-box w-full relative pb-[140%] lg:pb-[75.88%]">
+                                 <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="https://placehold.co/900x3000" alt="">
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="grid-image-box w-full relative pb-[140%] lg:pb-[75.88%]">
+                                 <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/grid-card-img.jpg" alt="">
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="grid-image-box w-full relative pb-[140%] lg:pb-[75.88%]">
+                                 <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="https://placehold.co/900x3000" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="w-[90%] lg:w-[61.5%] h-full grow flex flex-col justify-between relative z-10">
+                  <div class="custom-slider-arrow w-[160px] self-end flex flex-wrap shrink-0">
+                     <div class="swiper-image-slider-prev after:hidden bg-red grow basis-0 p-6 relative m-0 w-1/2 h-[76px] left-0 flex justify-center items-center top-0 text-white hover:text-red hover:bg-white hover:bg-opacity-25">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M7.65 14L32 14L32 18L7.65 18L18.85 29.2L16 32L1.39876e-06 16L16 -1.39876e-06L18.85 2.8L7.65 14Z" fill="currentColor"/>
+                        </svg>
+                     </div>
+                     <div class="swiper-image-slider-next after:hidden bg-red grow basis-0 p-6 relative m-0 w-1/2 h-[76px] right-0 flex justify-center items-center top-0 text-white hover:text-red hover:bg-white hover:bg-opacity-25">
+                        <svg class="-rotate-180" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M7.65 14L32 14L32 18L7.65 18L18.85 29.2L16 32L1.39876e-06 16L16 -1.39876e-06L18.85 2.8L7.65 14Z" fill="currentColor"/>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="bg-white sm:min-h-[290px] flex flex-col pt-[40px] pl-[40px] xl:pt-[60px] xl:pl-[10%] ">
+                     <div class="text-[26px] lg:text-[32px] 2xl:text-[40px] leading-[121.739%] mb-4 sm:mb-8">Stadi e palazzetti sportivi</div>
+                     <div class="text-[18px] sm:text-[20px] leading-[1.2] mb-4 sm:mb-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</div>
+                     <div class="mt-auto">
+                        <a href="#!" class="text-[18px] sm:text-[20px] lg:text-[24] xl:text-[28px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                        Trova il tuo settore
+                        <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                        <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                        <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                        </span>                
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Grid Card Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Services Container START HERE ========================== !! -->
+      <div class="home-services-container overflow-hidden py-10 md:py-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="w-full flex lg:flex-nowrap flex-col lg:flex-row">
+               <div class="bg-red relative shrink-0 p-6 md:p-10 lg:py-12 lg:pl-[7%] lg:pr-[10.7%] after:w-screen after:h-full after:absolute after:right-full after:top-0 after:bottom-0 after:bg-red flex items-center justify-center"><img class="w-[70px] lg:w-[120px]" src="images/logo-white.svg" alt="logo White"></div>
+               <div class="grow p-6 md:p-10 lg:py-5 lg:px-[5%]">
+                  <div class="w-full max-w-[640px] h-full flex flex-col justify-between">
+                     <div class="text-[24px] sm:text-[30px] md:text-[38px] lg:text-[48px] xl:text-[54px] leading-[118.75%]">Una gamma di servizi, dal Pre al Post Vendita.</div>
+                     <div class="mt-5">
+                        <a href="#!" class="text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                        Scopri i nostri servizi 
+                        <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                        <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                        <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                        </span>                
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Services Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Text Slider START HERE ========================== !! -->
+      <div class="text-slider-container overflow-hidden pt-0 pb-10 md:pb-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="w-full h-full">
+               <div class="swiper text-slider overflow-visible md-[200px] xl:pr-[340px] 2xl:pr-[450px]">
+                  <div class="w-[100vw] h-[2px] bg-black absolute top-[136px] lg:top-[170px] left-1/2 -translate-x-1/2"></div>
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-3.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Progettazione</h5>
+                              <p>Scoprite come il nostro approccio orientato alla qualità e all'innovazione può portare il vostro progetto industriale al successo.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-2.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Produzione</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-3.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Consegna</h5>
+                              <p>Il nostro servizio di consegna è rapido, affidabile e su misura per le vostre esigenze. Portiamo i nostri prodotti direttamente a voi, garantendo una consegna puntuale e sicura.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-4.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Assistenza</h5>
+                              <p>Il nostro team esperto è qui per garantire la vostra completa soddisfazione e assistervi nel massimizzare i benefici dei nostri prodotti. La vostra esperienza come cliente Libra Industriale è la nostra priorità.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-3.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Consegna</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-4.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Assistenza</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-3.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Produzione</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-3.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Consegna</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-4.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Assistenza</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-3.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Produzione</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-3.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Consegna</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="w-full h-full relative">
+                           <div class="w-20 h-20 lg:w-24 lg:h-24 mb-[40px] lg:mb-[60px]"><img class="w-full h-full object-cover" src="images/service-icon-4.png" alt=""></div>
+                           <div class="w-8 h-8 bg-red rounded-full relative"></div>
+                           <div class="w-full pt-[50px] lg:pt-[68px] text-[18px] md:text-[20px] leading-[1.2]">
+                              <h5 class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[40px] xl:mb-8 mb-3">Assistenza</h5>
+                              <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Text Slider end HERE ========================== !! --> 
+      <!-- !! ===============================  page Seprator START HERE ========================== !! -->
+      <div class="pb-10 md:pb-16 lg:pb-24">
+         <div class="container px-4 mx-auto">
+            <div class="w-full h-full min-h-[250px] lg:min-h-[384px] relative flex justify-center">
+               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full  after:w-full after:h-full after:bg-black after:opacity-25 after:absolute after:left-0 after:right-0 after:top-0 after:bottom-0 after:mix-blend-multiply after:z-1">
+                  <img class=" w-full h-full object-cover" src="images/linear.jpg" alt="">
+               </div>
+               <div class="relative flex justify-center items-center z-10">
+                  <h4 class="text-[30px] md:text-[44px] lg:text-[54px] leading-none text-white">Linear</h4>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  page Seprator end HERE ========================== !! --> 
+      <!-- !! ===============================  Image Container START HERE ========================== !! -->
+      <div class="image-container pt-0 pb-10 md:pb-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="max-w-[1288px] mx-auto">
+               <div class="lg:mb-16 mb-10">
+                  <h2 class="text-[24px] md:text-[30px] md:text-[40px] lg:text-[54px] xl:leading-[1.2] text-black">Ogni settore ha le sue esigienze, Libra ha la soluzione per ogni tua necessità.</h2>
+               </div>
+               <div class="flex flex-wrap w-[calc(100%+32px)] -ml-4">
+                  <div class="md:w-6/12 w-full px-4 pb-4 md:pb-0">
+                     <div class="relative pb-[75%]">
+                        <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/detail-img-1.jpg" alt="">
+                     </div>
+                     <div class="bg-grey p-[25px]  md:py-[30px] md:px-[15px] lg:py-10 lg:px-5 2xl:px-8 2xl:py-[54px]">
+                        <h5 class="text-xl md:text-[24px] lg:text-[28px] mb-3 lg:mb-4 2xl:mb-5 text-black">Stadi e palazzetti sportivi</h5>
+                        <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                        Dettaglio 
+                        <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                        <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                        <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                        </span>                
+                        </a>
+                     </div>
+                  </div>
+                  <div class="md:w-6/12 w-full px-4">
+                     <div class="relative pb-[75%]">
+                        <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/detail-img-2.jpg" alt="">
+                     </div>
+                     <div class="bg-grey p-[25px]  md:py-[30px] md:px-[15px] lg:py-10 lg:px-5 2xl:px-8 2xl:py-[54px]">
+                        <h5 class="text-xl md:text-[24px] lg:text-[28px]  mb-3 lg:mb-4 2xl:mb-5 text-black">Ospedali</h5>
+                        <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                        Dettaglio 
+                        <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                        <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                        <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                        </span>                
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Image Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Text Container START HERE ========================== !! -->
+      <div class="text-container pb-10 md:pb-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="max-w-[1160px] my-o mx-auto">
+               <div class="w-full flex flex-wrap">
+                  <div class="lg:w-6/12">
+                     <div class="w-full lg:max-w-[496px] mx-auto">
+                        <h2 class="text-[24px] md:text-[30px] md:text-[40px] lg:text-[48px] xl:text-[54px] leading-[1.2] text-black mb-5 lg:mb-0">Libra la sua partita la gioca fuori dal campo.</h2>
+                     </div>
+                  </div>
+                  <div class="lg:w-6/12">
+                     <div class="w-full lg:max-w-[496px] mx-auto">
+                        <h4 class="text-black text-[28px]  md:text-[32px] lg:text-[42px] 2xl:text-5xl leading-[1.2] font-bold lg:mb-8 mb-4">Stadi e palazzetti sportivi</h4>
+                        <p>Il modello Linear® orizzontale realizzato con profili brevettati, coniuga la modernità delle linee con l’esigenza di protezione e privacy sempre più richiesta dal cliente. I pannelli modulari realizzati elettroforgiando un tondo da 5 mm (posto verticalmente) alle doghe orizzontali garantiscono un’elevata robustezza e creano un piacevole effetto architettonico.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Text Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Service Container START HERE ========================== !! -->
+      <div class="page-service-container pb-10 md:pb-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="psc-list w-[calc(100%+24px)] -ml-[12px] flex flex-wrap flex-col lg:flex-row -mb-[25px] md:-mb-[40px] lg:-mb-[126px]">
+               <div class="psc-list-item w-full lg:w-1/2 mb-[25px] md:mb-[40px] lg:mb-[126px] px-[12px]">
+                  <div class="psc-list-box flex flex-nowrap gap-[18px] md:gap-[24px] 2xl:gap-[36px] w-full h-full">
+                     <div class="psc-list-icon shrink-0 w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[96px] xl:h-[96px] flex items-center justify-center">
+                        <img class="w-full h-full" src="images/service-icon-1.png" alt="">
+                     </div>
+                     <div class="psc-list-text-box grow max-w-[595px]">
+                        <div class="psc-list-label text-[24px] md:text-[28px] xl:text-[40px] leading-[121.739%] mb-4">Progettazione</div>
+                        <div class="psc-list-para text-[16px] md:text-[18px] xl:text-[20px] leading-[120%]">
+                           <p>Scoprite come il nostro approccio orientato alla qualità e all'innovazione può portare il
+                              vostro progetto industriale al successo
+                           </p>
+                        </div>
+                        <div class="psc-list-btn mt-4">
+                           <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Contattaci
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="psc-list-item w-full lg:w-1/2 mb-[25px] md:mb-[40px] lg:mb-[126px] px-[12px]">
+                  <div class="psc-list-box flex flex-nowrap gap-[24px] 2xl:gap-[36px] w-full h-full">
+                     <div class="psc-list-icon shrink-0 w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[96px] xl:h-[96px] flex items-center justify-center">
+                        <img class="w-full h-full" src="images/service-icon-2.png" alt="">
+                     </div>
+                     <div class="psc-list-text-box grow max-w-[595px]">
+                        <div class="psc-list-label text-[24px] md:text-[28px] xl:text-[40px] leading-[121.739%] mb-4">Produzione</div>
+                        <div class="psc-list-para text-[16px] md:text-[18px] xl:text-[20px] leading-[120%]">
+                           <p>Con un impegno costante per la qualità e l'efficienza, ci dedichiamo a creare prodotti industriali di livello superiore che soddisfano le esigenze più esigenti dei nostri clienti.</p>
+                        </div>
+                        <div class="psc-list-btn mt-4">
+                           <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Contattaci
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="psc-list-item w-full lg:w-1/2 mb-[25px] md:mb-[40px] lg:mb-[126px] px-[12px]">
+                  <div class="psc-list-box flex flex-nowrap gap-[36px] w-full h-full">
+                     <div class="psc-list-icon shrink-0 w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[96px] xl:h-[96px] flex items-center justify-center">
+                        <img class="w-full h-full" src="images/service-icon-3.png" alt="">
+                     </div>
+                     <div class="psc-list-text-box grow max-w-[595px]">
+                        <div class="psc-list-label text-[24px] md:text-[28px] xl:text-[40px] leading-[121.739%] mb-4">Consegna</div>
+                        <div class="psc-list-para text-[16px] md:text-[18px] xl:text-[20px] leading-[120%]">
+                           <p>Il nostro servizio di consegna è rapido, affidabile e su misura per le vostre esigenze. Portiamo i nostri prodotti direttamente a voi, garantendo una consegna puntuale e sicura.</p>
+                        </div>
+                        <div class="psc-list-btn mt-4">
+                           <a href="#!" class="text-[18px] lg:text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Contattaci
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="psc-list-item w-full lg:w-1/2 mb-[25px] md:mb-[40px] lg:mb-[126px] px-[12px]">
+                  <div class="psc-list-box flex flex-nowrap gap-[36px] w-full h-full">
+                     <div class="psc-list-icon shrink-0 w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[96px] xl:h-[96px] flex items-center justify-center">
+                        <img class="w-full h-full" src="images/service-icon-4.png" alt="">
+                     </div>
+                     <div class="psc-list-text-box grow max-w-[595px]">
+                        <div class="psc-list-label text-[24px] md:text-[28px] xl:text-[40px] leading-[121.739%] mb-4">Assistenza</div>
+                        <div class="psc-list-para text-[16px] md:text-[18px] xl:text-[20px] leading-[120%]">
+                           <p>Il nostro team esperto è qui per garantire la vostra completa soddisfazione e assistervi nel massimizzare i benefici dei nostri prodotti. La vostra esperienza come cliente Libra Industriale è la nostra priorità.</p>
+                        </div>
+                        <div class="psc-list-btn mt-4">
+                           <a href="#!" class="text-[20px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Contattaci
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Service Container end HERE ========================== !! -->
+      <!-- !! ===============================  Sector Container START HERE ========================== !! -->
+      <div class="sector-container overflow-hidden pb-10 md:pb-16 lg:pb-24">
+         <div class="container px-4 mx-auto">
+            <div class="flex flex-wrap items-center justify-between mb-[30px] lg:mb-[40px] 2xl:mb-[70px]">
+               <div class=" mb-2.5 md:mb-0 flex items-center gap-4">
+                  <div class="text-[24px] md:text-[28px] lg:text-[32px] leading-none">Scopri tutti i settori che serviamo</div>
+                  <button type="button" class="info-button w-[20px] h-[20px] flex items-center justify-center"><img src="images/info.png" alt=""></button>
+               </div>
+               <div class="md:pl-5 pr-10 hidden lg:block">
+                  <a href="#!" class="text-[24px] md:text-[28px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                  Scopri tutti i settori
+                  <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                  <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                  <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                  </span>                
+                  </a>
+               </div>
+            </div>
+            <div class="swiper sectors-slider overflow-visible">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3  xl:mb-4">Ospedali</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-2.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Edilizia Comerciale</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Edilizia Residenziale</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Piattaforme offshore</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Industria</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Ospedali</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-2.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Edilizia Comerciale</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Edilizia Residenziale</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Piattaforme offshore</h5>
+                           <a href="#!" class="text-[20px] sm:text-[24px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="w-full h-full">
+                        <div class="relative pb-[75%]">
+                           <img class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover" src="images/sectors-img-1.jpg" alt="">                                                          
+                        </div>
+                        <div class="bg-grey p-5 lg:p-6 xl:p-8">
+                           <h5 class="text-xl lg:text-2xl mb-2 lg:mb-3 xl:mb-4">Industria</h5>
+                           <a href="#!" class="text-[20px] sm:text-[28px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Dettaglio
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mt-10 md:pl-5 pr-10 block lg:hidden text-center">
+               <a href="#!" class="text-[20px] sm:text-[28px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+               Scopri tutti i settori
+               <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+               <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+               <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+               </span>                
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Sector Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Contact Desc Container START HERE ========================== !! -->
+      <div class="home-contact-container pb-10 md:pb-16 lg:pb-24">
+         <div class="container px-4 mx-auto">
+            <div class="max-w-[1288px] mx-auto">
+               <div class="border-b border-solid border-black lg:mb-24 mb-12">
+                  <div class="max-w-[920px] text-[26px] sm:text-[30px] md:text-[38px] sm:text-[44px] lg:text-[54px] leading-[1.2]  lg:pb-[92px] pb-12">
+                     Il vostro progetto è unico e ha bisogno di essere trattato come tale, contattateci per discuterne.
+                  </div>
+               </div>
+               <div class="flex flex-wrap flex-col lg:flex-row gap-8 lg:gap-0  lg:gap-[98px] justify-between max-w-[1265px]">
+                  <div class="flex-contact-col">
+                     <div class="w-full h-full flex flex-col">
+                        <div class="flex items-center gap-4 text-red mb-6 md:mb-8">
+                           <div class="w-[20px] h-[20px] rounded-full bg-red"></div>
+                           <div class="text-[16px] sm:text-[18px] md:text-[20px] leading-[120%]">Dati societari</div>
+                        </div>
+                        <address class="text-[20px] sm:text-[24px] leading-[141.667%] mb-0 not-italic">
+                           <p>LIBRA Industriale s.p.a</p>
+                           <p>P. Iva</p>
+                           <p>Cap. Soc.</p>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="flex-contact-col">
+                     <div class="w-full h-full flex flex-col">
+                        <div class="flex items-center gap-4 text-red mb-6 md:mb-8">
+                           <div class="w-[20px] h-[20px] rounded-full bg-red"></div>
+                           <div class="text-[16px] sm:text-[18px] md:text-[20px] leading-[120%]">Indirizzo</div>
+                        </div>
+                        <address class="text-[20px] sm:text-[24px] leading-[141.667%] mb-0 not-italic">
+                           <p>Strada cardio, 12/14</p>
+                           <p>47899 Serravalle</p>
+                           <p>Repubblica di San Marino</p>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="flex-contact-col">
+                     <div class="w-full h-full flex flex-col">
+                        <div class="flex items-center gap-4 text-red mb-6 md:mb-8">
+                           <div class="w-[20px] h-[20px] rounded-full bg-red"></div>
+                           <div class="text-[16px] sm:text-[18px] md:text-[20px] leading-[120%]">Contatti</div>
+                        </div>
+                        <div class="flex flex-col text-[20px] sm:text-[24px] leading-[141.667%]">
+                           <div>Tel. <a class="hover:text-red hover:underline" href="tel:0549872811">0549 872 811</a></div>
+                           <div>Fax. 0549 000 000</div>
+                           <div><a class="hover:text-red hover:underline" href="mailto:mbox@libraindustriale.com">mbox@libraindustriale.com</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Contact Desc Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Content Container START HERE ========================== !! -->
+      <div class="map-container">
+         <div class="container px-4 mx-auto">
+            <div class="relative pb-[41%]">
+               <div class="w-full h-full absolute left-0 right-0 top-0 bottom-0"><img class="w-full h-full object-cover" src="images/map.jpg" alt="map" /></div>
+               <div class="pin absolute z-2 w-[8.2%] left-[54.5%] top-[33.8%]">
+                  <img class="w-full h-full object-cover" src="images/pin-icon.svg" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Content Container end HERE ========================== !! --> 
+      <!-- !! ===============================  Content Container START HERE ========================== !! -->
+      <div class="contact-container pt-10 md:pt-16 lg:pt-24 lg:pb-12">
+         <div class="container px-4 mx-auto">
+            <div class="max-w-[1288px] mx-auto">
+               <div class="text-[24px] lg:text-[38px] xl:text-[48px] font-normal mb-10"><span class="font-bold">Come possiamo aiutarti?</span> Siamo a vostra disposizione.</div>
+               <form>
+                  <div class="form-group mb-[20px]">
+                     <label class="form-control">
+                     <input type="email" placeholder="Scrive qui la vostra email" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                     </label>
+                  </div>
+                  <div class="form-group">
+                     <label class="form-control">
+                     <textarea placeholder="Scrive qui il vostro messaggio" class="h-[256px] resize-none outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" ></textarea>                    
+                     </label>
+                  </div>
+                  <div class="flex flex-wrap  gap-4 mt-5">
+                     <div class="grow py-[15px]">
+                        <div class="max-w-[740px]">
+                           <label class="w-full relative inline-block pl-[33px]">
+                              <span class="custom-checkbox absolute top-0 left-0 w-[24px] h-[24px]">
+                              <input class="absolute opacity-0" type="checkbox" id="agree" name="agree">
+                              <span class="checkmark absolute top-0 left-0 w-full h-full bg-grey  
+                                 after:absolute after:hidden after:w-[14px] after:h-[14px] after:bg-red after:top-1/2 after:-translate-y-1/2
+                                 after:left-1/2 after:-translate-x-1/2 "></span>
+                              </span>
+                              <div class="text-xs leading-[1.5]">Autorizzo Il Trattamento Dei Dati Personali Ai Sensi Dell'art.13 Del Regolamento UE 679/2016 (GDPR) <a href="#!" class="underline hover:no-underline">Informativa Privacy</a>. Questo sito è protetto da reCAPTCHA e si applicano le norme sulla privacy di Google e <a href="#!" class="underline hover:no-underline">Termini di servizio</a>.</div>
+                           </label>
+                        </div>
+                     </div>
+                     <div class="sm:shrink-0 w-full sm:w-fit">
+                        <button type="submit" class="bg-red w-full sm:w-fit text-white px-[24px] py-[24px] sm:py-[28px] sm:pl-[66px] sm:pr-[120px] spring-link">
+                        <span class="text-[18px] md:text-[20px] leading-[1.2] font-bold text-white relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                        Invia
+                        <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                        <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                        <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                        </span>                
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Content Container end HERE ========================== !! -->  
+      <!-- !! ===============================  Card Link Container START HERE ========================== !! -->
+      <div class="card-link-container py-10 md:py-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="card-link-row flex flex-col lg:flex-row gap-8 2xl:gap-[26px]">
+               <div class="card-link-column flex-1">
+                  <div class="card-link-box w-full h-full text-black flex flex-col w-full h-full relative">
+                     <div class="card-link-img relative pb-64.5%"><img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover" src="images/card-link-img-1.jpg" alt=""></div>
+                     <div class="card-link-text w-full max-w-[80%] lg:max-w-[65%] flex flex-col p-[25px] 2xl:px-12 2xl:py-15 bg-white relative z-2 ms-auto -mt-[10%] lg:-mt-[32.5%] xl:min-h-[300px]">
+                        <div class="card-link-label text-[20px] sm:text-[24px] md:text-[34px] 2xl:text-[40px] leading-[1.22] mb-[22px]">Cerchi aiuto, consulta le nostre FAQ</div>
+                        <div class="card-link-btn mt-auto">
+                           <a href="#!" class="text-[20px] sm:text-[28px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           FAQ 
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card-link-column flex-1">
+                  <div class="card-link-box w-full h-full text-black flex flex-col w-full h-full relative">
+                     <div class="card-link-img relative pb-64.5%"><img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover" src="images/card-link-img-2.jpg" alt=""></div>
+                     <div class="card-link-text w-full max-w-[80%] lg:max-w-[65%] flex flex-col p-[25px] 2xl:px-12 2xl:py-15 bg-white relative z-2 ms-auto -mt-[10%] lg:-mt-[32.5%] xl:min-h-[300px]">
+                        <div class="card-link-label text-[20px] sm:text-[24px] md:text-[34px] 2xl:text-[40px] leading-[1.22] mb-[22px]">Scarica i nostri cataloghi per maggiori info.</div>
+                        <div class="card-link-btn mt-auto">
+                           <a href="#!" class="text-[20px] sm:text-[28px] leading-[1.2] font-light text-red spring-link relative inline-block after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                           Area Download
+                           <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                           <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                           <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                           </span>                
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Card Link Container end HERE ========================== !! --> 
+      <!-- !! ===============================  FOOTER START HERE ========================== !! -->
+      <footer id="footer" class="bg-red text-white">
+         <div class="container px-4 mx-auto">
+            <div class="footer-upper text-center md:text-left">
+               <div class="footer-main py-8 xl:py-16 lg:flex lg:flex-wrap">
+                  <div class="footer-logo-area shrink-0  flex items-center justify-center md:items-start md:justify-start">
+                     <a href="#!" class="footer-logo w-[80px] 2xl:w-[90px] block"><img src="images/footer-logo.svg" alt="footer Logo"></a>
+                  </div>
+                  <div class="footer-menu-box grow lg:ps-8 mt-6 lg:mt-0">
+                     <div class="footer-menu-inside w-full flex flex-col md:flex-row justify-between lg:justify-start max-w-[1290px] ms-auto gap-2 lg:gap-4 xl:gap-8">
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">azienda</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Chi siamo</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Storia</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Sostenibilità</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">prodotti</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Recinzioni e cancelli</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Telai</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Pensiline</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Rompitratta</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Grigliati</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Pannelli</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Grate</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Gradini</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Ancoraggi</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">Settori</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Campi da calcio</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Ospedali</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Industria</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Piattaforme offshore</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Edilizia residenziale</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Edilizia commerciale</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">Servizi e strumenti</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Servizi</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Portata griglie</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">servizio clienti</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Contatti</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Richiedi un preventivo</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base hover:underline">Domande frequenti</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer-nav-row border-t py-8 flex items-start lg:items-center lg:justify-between flex-col lg:flex-row">
+                  <div class="footer-nav w-full md:w-fit">
+                     <ul class="footer-nav-list flex flex-col md:flex-row md:justify-between md:items-center gap-2 md:gap-6 lg:gap-8">
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Utilizzo dei cookie</a></li>
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Normativa sulla Privacy</a></li>
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Termini e condizioni</a></li>
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Tempi di consegna</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer-social-box mt-6 lg:mt-0 self-center md:self-start">
+                     <ul class="footer-social-list flex items-center justify-between gap-6">
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-pinterest"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-lower xl:pt-8 text-center md:text-left pb-6 flex md:items-start xl:items-center xl:justify-between flex-col xl:flex-row">
+               <div class="footer-desc text-sm">LIBRA Industriale s.p.a.Strada Cardio, 12/1447899 SerravalleRepubblica di S.Marino - Tel. <a href="tel:+390549872811" class="hover:underline">+39 0549 872811</a></div>
+               <div class="copyright text-sm mt-4 2xl:mt-0">Copyright &copy;2023 Libra Industriale s.p.a. | Design with <span class="underline">love</span> by <a href="#!" class="underline hover:no-underline">thetailors.it</a></div>
+            </div>
+         </div>
+      </footer>
+      <!-- !! ===============================  FOOTER end HERE ========================== !! -->
+      <!-- !! ===============================  Request Quote Modal START HERE ========================== !! -->
+      <dialog id="my_modal_3" class="modal">
+         <div class="modal-box max-w-full max-h-full w-full h-full rounded-none p-0">
+            <form method="dialog">
+               <button class="w-5 h-5 sm:w-6 sm:h-6 absolute right-5 top-5 sm:right-8 sm:top-8"><img class="w-full h-full object-contain" src="images/close-icon.svg" alt=""></button>
+            </form>
+            <div class="contact-container pt-16 pb-8 lg:pt-20 lg:pb-12">
+               <div class="container px-4 mx-auto">
+                  <div class="max-w-[1288px] mx-auto">
+                     <div class="text-[16px] sm:text-[18px] text-dark-black mb-11">
+                        <h3 class="text-[24px] lg:text-[38px] xl:text-[48px] font-bold mb-4 sm:mb-[34px] text-dark-black">Richiedi un preventivo</h3>
+                        <p>Compila il form, saremi lieti di rispondere a tutte le tue necessità nel minor tempo possibile. </p>
+                     </div>
+                     <form>
+                        <div class="flex flex-wrap gap-x-[34px] gap-y-4 mb-4 ">
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Nome" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Cognome" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                        </div>
+                        <div class="flex flex-wrap gap-x-[34px] gap-y-4 mb-4">
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Azienda" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Città" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                        </div>
+                        <div class="flex flex-wrap gap-x-[34px] gap-y-4 mb-4">
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Email" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Telefono" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                        </div>
+                        <div class="form-group mb-4">
+                           <label class="form-control">
+                              <select class="appearance-none bg-[url('images/chevron-down-icon.svg')] bg-no-repeat bg-[center_right_19px] bg-[length:24px_12px] outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] pe-14 text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" >
+                                 <option value="">Preferisco essere contattato per telefono</option>
+                                 <option value="">Option 1</option>
+                                 <option value="">Option 2</option>
+                              </select>
+                           </label>
+                        </div>
+                        <div class="form-group">
+                           <label class="form-control">
+                           <textarea placeholder="Scrive qui il vostro messaggio" class="h-[180px] sm:h-[256px] resize-none outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" ></textarea>                    
+                           </label>
+                        </div>
+                        <div class="flex flex-wrap gap-6 mt-9">
+                           <div class="grow">
+                              <div class="max-w-[740px]">
+                                 <label class="w-full relative inline-block pl-[33px]">
+                                    <span class="custom-checkbox absolute top-0 left-0 w-[24px] h-[24px]">
+                                    <input class="absolute opacity-0" type="checkbox" id="agree" name="agree">
+                                    <span class="checkmark absolute top-0 left-0 w-full h-full bg-grey  
+                                       after:absolute after:hidden after:w-[14px] after:h-[14px] after:bg-red after:top-1/2 after:-translate-y-1/2
+                                       after:left-1/2 after:-translate-x-1/2 "></span>
+                                    </span>
+                                    <div class="text-xs leading-[1.5]">Autorizzo Il Trattamento Dei Dati Personali Ai Sensi Dell'art.13 Del Regolamento UE 679/2016 (GDPR) <a href="#!" class="underline hover:no-underline">Informativa Privacy</a>. Questo sito è protetto da reCAPTCHA e si applicano le norme sulla privacy di Google e <a href="#!" class="underline hover:no-underline">Termini di servizio</a>.</div>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="shrink-0 min-w-full sm:min-w-fit">
+                              <button type="submit" class="bg-red text-white p-7 sm:py-[28px] sm:pl-[66px] sm:pr-[120px] spring-link w-full">
+                              <span class="text-[20px] leading-[1.2] font-bold text-white relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Invia
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </dialog>
+      <!-- !! ===============================  Request Quote Modal START HERE ========================== !! -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="custom.js"></script>     
+   </body>
+</html>

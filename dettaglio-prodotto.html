@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Libra - Dettaglio prodotto</title>
+      <link rel="icon" href="images/favicon.png" sizes="32x32">
+      <link rel="stylesheet" href="https://use.typekit.net/rbg5cze.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="tailwind.config.js"></script>
+      <script src="https://kit.fontawesome.com/db98e7ed59.js" crossorigin="anonymous"></script>      
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body class="bg-white tk-brother-1816 text-black pt-[80px] 2xl:pt-[140px] font-normal transition-all duration-300">
+      <!-- !! =============================== HEADER START HERE ========================== !! -->
+      <header id="header" class="fixed top-0 w-full z-[99999] bg-white shadow-sm">
+         <div class="header-upper h-[40px] transition-all duration-300 xl:flex items-center hidden xl:block">
+            <div class="container px-4 mx-auto">
+               <div class="w-4/5 ml-auto flex items-center justify-between">
+                  <div class="grow basis-0 hidden xl:block">area riservata</div>
+                  <div class="flex items-center grow basis-0 justify-end xl:justify-between gap-3 xl:gap-0 pl-4 2xl:pl-16">
+                     <div class="flex items-center gap-3 xl:gap-7">
+                        <a href="tel:+3780549872811" class="nav-contact-item flex items-center gap-2">
+                           <div class="nav-contact-img"><img src="images/phone_iphone.svg" alt="iPhone"></div>
+                           <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">+378 0549.872.811</div>
+                        </a>
+                        <a href="mailto:mbox@libraindustriale.com" class="nav-contact-item flex items-center gap-2">
+                           <div class="nav-contact-img"><img src="images/drafts.svg" alt="draft"></div>
+                           <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">mbox@libraindustriale.com</div>
+                        </a>
+                     </div>
+                     <div class="flex items-center">
+                        <div class="dropdown">
+                           <button type="button" class="flex items-center justify-center">
+                              <img src="images/italy-flag.svg" alt="">
+                              <img class="w-4 h-4 ml-2" src="images/arrow-back.svg" alt="">
+                           </button>
+                           <div class="dropdown-content bg-white absolute right-0 mt-2 w-[35px] -left-[7px] shadow bg-white z-[9999]">
+                              <div class="w-full py-1 flex items-center justify-center flex-col" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                 <a href="#" class="w-full p-1 hover:bg-grey flex items-center justify-center">
+                                 <img src="images/italy-flag.svg" alt="">
+                                 </a>
+                                 <a href="#" class="w-full p-1 hover:bg-grey flex items-center justify-center">
+                                 <img src="images/italy-flag.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>  
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-main bg-white xl:bg-red">
+            <nav class="header-navbar h-[80px] xl:h-[100px] transition-all duration-300">
+               <div class="container px-4 mx-auto h-full">
+                  <div class="navbar-inside flex w-full h-full">
+                     <div class="xl:w-1/5 navbar-logo-area xl:pr-[2%] flex items-center bg-white relative xl:before:w-screen xl:before:h-full xl:before:bg-white xl:before:absolute xl:before:right-full xl:before:top-0 xl:before:bottom-0 z-[100]">
+                        <a href="#!" class="header-logo w-[150px] xl:w-[260px]"><img class="w-full" src="images/logo.svg" alt="Logo"></a>
+                     </div>
+                     <div class="w-full xl:w-4/5 collapse navbar-collapse fixed xl:static left-0 xl:pl-[2%] bg-white  overflow-visible xl:bg-transparent rounded-none z-[99] h-screen xl:h-full pt-20 xl:pt-0 pb-10 xl:pb-0">
+                        <div class="w-full h-full xl:gap-6 2xl:gap-12 overflow-y-auto xl:overflow-y-visible xl:flex  px-4 xl:px-0">
+                           <ul class="navbar-nav w-full xl:flex gap-5 2xl:gap-8 xl:flex-row items-center xl:justify-end grow">
+                              <li class="navbar-nav-item h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Home</a>
+                              </li>
+                              <li class="navbar-nav-item h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Azienda</a>
+                              </li>
+                              <li class="navbar-nav-item xl:static h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link w-full relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white xl:leading-tight xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out leading-[45px]">
+                                    Prodotti
+                                    <div class="triggerIcon w-[14px] h-[16px] absolute right-[4px] top-3 xl:hidden flex items-center justify-center">
+                                       <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                       <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                    </div>
+                                 </a>
+                                 <div class="collapse-content-inside xl:opacity-0 xl:invisible w-full xl:bg-red xl:absolute xl:left-0 xl:top-full xl:right-0 z-[999] xl:border-t xl:border-solid xl:border-white xl:pt-12 xl:pb-20">
+                                    <div class="container pl-4 xl:px-4 mx-auto">
+                                       <div class="w-full flex flex-wrap flex-col xl:flex-row py-4 xl:py-0">
+                                          <div class="w-full xl:w-1/5 xl:pl-6 xl:pr-3 order-1">
+                                             <div class="xl:text-white">
+                                                <div class="accor-head font-bold xl:font-normal mb-4 relative pr-6 xl:pr-0">
+                                                   <h4 class="uppercase">Prodotti Per L'ediliza</h4>
+                                                   <div class="triggerIconInside w-[14px] h-[16px] absolute right-1 top-1 xl:hidden flex items-center justify-center" >
+                                                      <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                                      <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                                   </div>
+                                                </div>
+                                                <div class="accor-body pb-4 px-2 xl:pb-0 xl:px-0">
+                                                   <ul>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Grate</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pannelli</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Gradini</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Ancoraggi</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pensiline</a></li>
+                                                   </ul>
+                                                   <div class="mt-4 relative before:w-[25px] before:h-[2px] xl:before:bg-white before:bg-red before:absolute before:top-0 before:left-0 pt-2"><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vedi tutti</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="w-full xl:w-1/5 xl:px-3 order-2">
+                                             <div class="xl:text-white">
+                                                <div class="accor-head font-bold xl:font-normal mb-4 relative pr-6 xl:pr-0">
+                                                   <h4 class="uppercase">Linea</h4>
+                                                   <div class="triggerIconInside w-[14px] h-[16px] absolute right-1 top-1 xl:hidden flex items-center justify-center">
+                                                      <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                                      <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                                   </div>
+                                                </div>
+                                                <div class="accor-body pb-4 px-2 xl:pb-0 xl:px-0">
+                                                   <ul class="column-count-2">
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Linear</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Venus</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Oscura</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Mask</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vulcano</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Conica</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pegaso</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Giunone</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Medusa</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Aurola</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Apollo</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Minerva</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Spazio</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Garden</a></li>
+                                                   </ul>
+                                                   <div class="mt-4 relative before:w-[25px] before:h-[2px] xl:before:bg-white before:bg-red before:absolute before:top-0 before:left-0 pt-2"><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vedi tutti</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="w-full xl:w-2/5 xl:px-3 order-4 xl:order-3">
+                                             <div class="w-full max-w-[440px]">
+                                                <div class="flex flex-col gap-4 xl:gap-6">
+                                                   <div class="flex-grow-item flex bg-red text-white xl:text-black xl:bg-white">
+                                                      <div class="flex-grow-img shrink-0 w-[125px] xl:w-[175px] relative pb-[20%]"><img class="w-full h-full object-cover absolute top-0 left-0" src="images/strip-line-img-1.jpg" alt=""></div>
+                                                      <div class="flex-grow-content grow p-4 xl:py-[24px] xl:pr-[45px] xl:pl-[6%]">
+                                                         <div class="text-[20px] sm:text-[24px] mb-3 xl:text-[28px] 2xl:text-[38px] leading-[1.2] xl:mb-4">Linear</div>
+                                                         <div>
+                                                            <a href="#!" class="text-[16px] sm:text-[20px] leading-[1.5] font-light text-red spring-link relative inline-block me-10 after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                                            Scopri la linea
+                                                            <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                                            <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                                            <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                                            </span>
+                                                            </a>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="flex-grow-item flex bg-red text-white xl:text-black xl:bg-white">
+                                                      <div class="flex-grow-img shrink-0 w-[125px] xl:w-[175px] relative pb-[20%]"><img class="w-full h-full object-cover absolute top-0 left-0" src="images/strip-line-img-4.jpg" alt=""></div>
+                                                      <div class="flex-grow-content grow p-4 xl:py-[24px] xl:pr-[45px] xl:pl-[6%]">
+                                                         <div class="text-[20px] sm:text-[24px] mb-3 xl:text-[28px] 2xl:text-[38px] leading-[1.2] xl:mb-4">Pegaso</div>
+                                                         <div>
+                                                            <a href="#!" class="text-[16px] sm:text-[20px] leading-[1.5] font-light text-red spring-link relative inline-block me-10 after:w-full after:h-[2px] after:bg-red after:absolute after:bottom-0 after:left-0">
+                                                            Scopri la linea
+                                                            <span class="spring-link-arrow h-[16px] ms-[16px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                                            <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-red transform -translate-y-1/2 rotate-45"></span>
+                                                            <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-red transform -translate-y-1/2"></span>
+                                                            </span>
+                                                            </a>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="w-full xl:w-1/5 xl:pl-3 xl:pr-6 order-3 xl:order-4">
+                                             <div class="xl:text-white">
+                                                <div class="accor-head font-bold xl:font-normal mb-4 relative pr-6 xl:pr-0">
+                                                   <h4 class="uppercase">Prodottiper La Riendita  e Carpenteria</h4>
+                                                   <div class="triggerIconInside w-[14px] h-[16px] absolute right-1 top-1 xl:hidden flex items-center justify-center">
+                                                      <i class="plus-icon absolute fa-solid fa-plus"></i>
+                                                      <i class="minus-icon absolute fa-solid fa-minus"></i>
+                                                   </div>
+                                                </div>
+                                                <div class="accor-body pb-4 px-2 xl:pb-0 xl:px-0">
+                                                   <ul>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Grate</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pannelli</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Gradini</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Ancoraggi</a></li>
+                                                      <li><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Pensiline</a></li>
+                                                   </ul>
+                                                   <div class="mt-4 relative before:w-[25px] before:h-[2px] xl:before:bg-white before:bg-red before:absolute before:top-0 before:left-0 pt-2"><a href="#" class="text-base relative after:invisible hover:after:visible after:absolute after:top-1/2 after:-translate-y-1/2 after:w-[30px] after:h-[24px] after:left-full after:ml-2 after:bg-[url('images/arrow-white.svg')] after:bg-no-repeat after:bg-contain after:bg-center after:z-9 after:transition-all">Vedi tutti</a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="navbar-nav-item relative h-full flex flex-col xl:flex-row">
+                                 <a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Settori</a>                             
+                              </li>
+                              <li class="navbar-nav-item relative h-full flex flex-col xl:flex-row"><a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Servizi & Strumenti</a></li>
+                              <li class="navbar-nav-item relative h-full flex flex-col xl:flex-row"><a href="#!" class="navbar-nav-link relative xl:before:w-0 xl:before:h-0.5 xl:before:bg-white xl:before:absolute xl:before:bottom-0 xl:before:left-1/2 xl:before:-translate-x-1/2 xl:before:transition-all xl:before:duration-300 xl:before:ease-in-out relative text-base uppercase xl:flex xl:items-center xl:justify-center xl:rounded font-bold xl:text-white leading-[45px] xl:leading-tight">Supporto Clienti</a></li>
+                           </ul>
+                           <div class="nav-end xl:text-center flex xl:items-center xl:justify-center shrink-0 mt-4 xl:mt-0">
+                              <a href="#!" class="btn w-full xl:w-max bg-red border-red text-base h-auto text-white uppercase py-4 px-6 font-extrabold xl:text-red xl:bg-white xl:border-white rounded hover:bg-red hover:text-white border-white-important" onclick="my_modal_3.showModal()">Richiedi Preventivo</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="xl:hidden flex items-center grow justify-end gap-3 pr-4">
+                        <div class="flex items-center gap-3 xl:gap-7">
+                           <a href="tel:+3780549872811" class="nav-contact-item flex items-center gap-2">
+                              <div class="nav-contact-img"><img src="images/phone_iphone.svg" alt="iPhone"></div>
+                              <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">+378 0549.872.811</div>
+                           </a>
+                           <a href="mailto:mbox@libraindustriale.com" class="nav-contact-item flex items-center gap-2">
+                              <div class="nav-contact-img"><img src="images/drafts.svg" alt="draft"></div>
+                              <div class="nav-page-link hidden xl:block text-[13px] font-bold hover:underline hover:text-red">mbox@libraindustriale.com</div>
+                           </a>
+                        </div>
+                        <div class="dropdown dropdown-end">
+                           <button type="button" class="flex items-center gap-2">
+                              <img src="images/italy-flag.svg" alt="">
+                              <img src="images/arrow-back.svg" alt="">
+                           </button>
+                           <div class="dropdown-content bg-white absolute right-0 mt-2 w-[40px] shadow bg-white z-[9999]">
+                              <div class="w-full py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                 <a href="#" class="w-full flex items-center justify-center block px-1 py-1 hover:bg-gray-100" role="menuitem">
+                                 <img class="w-4 h-5" src="images/italy-flag.svg" alt="">
+                                 </a>
+                                 <a href="#" class="w-full flex items-center justify-center block px-1 py-1 hover:bg-gray-100" role="menuitem">
+                                 <img class="w-4 h-5" src="images/italy-flag.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="xl:hidden flex items-center ml-auto">
+                        <button type="button" class="navbar-toggler collapsed z-[100] text-3xl text-red">
+                        <span class="navbar-toggler-icon">
+                        <i class="close-nav-icon w-full"><i class="fa-solid fa-bars"></i></i>
+                        <i class="open-nav-icon w-full"><i class="fa-solid fa-xmark"></i></i>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- !! =============================== HEADER END HERE ============================ !! --> 
+      <!-- !! ===============================  BREADCRUMBS START HERE ========================== !! -->
+      <div class="breadcrumbs-container bg-white z-10 py-4 sticky top-[80px] 2xl:top-[140px] transition-all duration-300">
+         <div class="container px-4 mx-auto">
+            <div class="w-full xl:w-4/5 ml-auto">
+               <div class="flex items-center">
+                  <!-- <div class="w-6 h-6 flex items-center justify-center shrink-0"><a href="#!"><img src="images/home.svg" alt=""></a></div> -->
+                  <div class="breadcrumbs w-full text-[10px] sm:text-[13px] leading-[100%] p-0">
+                     <ul class="w-full truncate">
+                        <li class="relative pr-[24px] !inline-block"><a href="#!" class="!inline-block"><img  class="h-[19.2px]" src="images/home.svg" alt=""></a></li>
+                        <li class="relative pr-[24px]"><a href="#!">Prodotti</a></li>
+                        <li class="relative pr-[24px]"><a href="#!">Edilizia</a></li>
+                        <li class="relative pr-[24px]"><a href="#!">Linear</a></li>
+                        <li class="relative pr-[24px]">Linear Orizzontale</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- !! ===============================  BREADCRUMBS END HERE ========================== !! -->
+      <!-- !! ===============================  PRODUCT CONTAINER START HERE ========================== !! -->
+      <div class="py-10 md:py-16 lg:py-24">
+         <div class="container px-4 mx-auto">
+            <div class="flex flex-wrap">
+               <div class="w-full lg:w-[58%]">
+                   <div class="h-full flex gap-[10px] md:gap-[20px] xl:gap-[33px] max-w-[756px]">
+                       <div class="w-[50px] sm:w-[98px] shrink-0">
+                           <div class="swiper thumbSlider h-[248px] sm:h-[440px] swiper-initialized swiper-vertical swiper-free-mode swiper-watch-progress swiper-backface-hidden swiper-thumbs">
+                               <div class="swiper-wrapper" id="swiper-wrapper-1635953ff12e544b" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px);">
+                                   <div class="swiper-slide border border-solid border-[#EFEBEB] swiper-slide-visible swiper-slide-active swiper-slide-thumb-active" role="group" aria-label="1 / 6" style="height: 98px; margin-bottom: 16px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-thumb.jpg">
+                                   </div>
+                                   <div class="swiper-slide border border-solid border-[#EFEBEB] swiper-slide-visible swiper-slide-next" role="group" aria-label="2 / 6" style="height: 98px; margin-bottom: 16px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-thumb.jpg">
+                                   </div>
+                                   <div class="swiper-slide border border-solid border-[#EFEBEB] swiper-slide-visible" role="group" aria-label="3 / 6" style="height: 98px; margin-bottom: 16px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-thumb.jpg">
+                                   </div>
+                                   <div class="swiper-slide border border-solid border-[#EFEBEB] swiper-slide-visible" role="group" aria-label="4 / 6" style="height: 98px; margin-bottom: 16px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-thumb.jpg">
+                                   </div>
+                                   <div class="swiper-slide border border-solid border-[#EFEBEB]" role="group" aria-label="5 / 6" style="height: 98px; margin-bottom: 16px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-thumb.jpg">
+                                   </div>
+                                   <div class="swiper-slide border border-solid border-[#EFEBEB]" role="group" aria-label="6 / 6" style="height: 98px; margin-bottom: 16px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-thumb.jpg">
+                                   </div>
+                               </div>
+                           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                       </div>
+                       <div class="grow w-[calc(100%-60px)]  sm:w-[calc(100%-131px)]">
+                           <div class="swiper imageSlider h-full swiper-initialized swiper-horizontal swiper-backface-hidden">
+                               <div class="swiper-wrapper" id="swiper-wrapper-ecff6fc5f9cf1510c" aria-live="polite">
+                                   <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" data-swiper-slide-index="0" style="width: 625px; margin-right: 10px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-slider.jpg">
+                                   </div>
+                                   <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 6" data-swiper-slide-index="1" style="width: 625px; margin-right: 10px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-slider.jpg">
+                                   </div>
+                                   <div class="swiper-slide" role="group" aria-label="3 / 6" data-swiper-slide-index="2" style="width: 625px; margin-right: 10px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-slider.jpg">
+                                   </div>
+                                   <div class="swiper-slide" role="group" aria-label="4 / 6" data-swiper-slide-index="3" style="width: 625px; margin-right: 10px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-slider.jpg">
+                                   </div>
+                                   <div class="swiper-slide" role="group" aria-label="5 / 6" data-swiper-slide-index="4" style="width: 625px; margin-right: 10px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-slider.jpg">
+                                   </div>
+                                   <div class="swiper-slide" role="group" aria-label="6 / 6" data-swiper-slide-index="5" style="width: 625px; margin-right: 10px;">
+                                       <img class="w-full h-full object-cover" src="images/linear-slider.jpg">
+                                   </div>
+                               </div>
+                           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                       </div>
+                   </div>
+               </div>
+               <div class="w-full lg:w-[42%] lg:pl-[20px] mt-[40px] lg:mt-0 self-center">
+                   <div class="text-[16px] lg:text-[18px] leading-[1.5] lg:max-w-[496px]">
+                       <h5 class="text-[18px] md:text-[20px] lg:text-[24px]">Linear</h5>
+                       <h4 class="text-[24px] md:text-[30px] lg:text-[40px] leading-[1.5] font-bold mb-2.5 lg:mb-5 xl:mb-8">
+                           Linear Orizzontale</h4>
+                       <p>Il modello Linear® orizzontale realizzato con profili brevettati, coniuga la modernità delle
+                           linee con
+                           l’esigenza di protezione e privacy sempre più richiesta dal cliente. I pannelli modulari
+                           realizzati
+                           elettroforgiando un tondo da 5 mm (posto verticalmente) alle doghe orizzontali garantiscono
+                           un’elevata
+                           robustezza e creano un piacevole effetto architettonico.</p>
+                       <div class="w-full flex mt-6 md:mt-10 2xl:mt-16">
+                           <a href="#!" class="w-full h-full py-5 pl-5  pr-[18%] md:py-7 md:pl-7  md:pr-[23%] bg-red text-center spring-link">
+                               <span class="text-[20px] leading-[1.2] font-medium text-white text-center relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                                   Richiedi Preventivo
+                                   <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                                       <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                                       <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                                   </span>
+                               </span>
+                           </a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+         </div>
+      </div>
+      <!-- !! ===============================  PRODUCT CONTAINER END HERE ========================== !! -->
+      <!-- !! ===============================  Accordation Container START HERE ========================== !! -->
+      <div class="accordation-container pb-10 md:pb-16 lg:pb-24 overflow-hidden">
+         <div class="container px-4 mx-auto">
+            <div class="w-full h-full flex flex-col gap-8 sm:gap-16">
+               <div class="collapse collapse-arrow rounded-none border-b border-solid border-red">
+                   <input type="radio" name="my-accordion-4" checked="checked">
+                   <div class="collapse-title text-[16px] sm:text-[18px] tex-dark-black p-0 pr-8 mb-4 relative after:opacity-0 before:absolute before:right-1 before:top-[9px] before:w-6 before:h-6 before:bg-[url('images/chevron-down-icon.svg')] before:bg-no-repeat before:bg-contain before:bg-center">
+                       <h4 class="text-[20px] sm:text-[24px] md:text-[32px] font-extrabold leading-normal uppercase">caratteristiche
+                           tecniche</h4>
+                   </div>
+                   <div class="collapse-content p-0">
+                       <div class="my-6 sm:my-12">
+                           <div class="flex flex-col gap-1 sm:flex-row sm:justify-between py-4 text-black text-[18px] font-medium border-b border-solid border-black">
+                               <div>Profili orizzontali:</div>
+                               <div>Profilati con spessore da mm. 1,5</div>
+                           </div>
+                           <div class="flex flex-col gap-1 sm:flex-row sm:justify-between py-4 text-black text-[18px] font-medium border-b border-solid border-black">
+                               <div>Sezione profili:</div>
+                               <div>Sui quattro lati in piatto da mm. 50x3</div>
+                           </div>
+                           <div class="flex flex-col gap-1 sm:flex-row sm:justify-between py-4 text-black text-[18px] font-medium border-b border-solid border-black">
+                               <div>Montanti:</div>
+                               <div>in profilato piatto da mm. 60x7</div>
+                           </div>
+                           <div class="flex flex-col gap-1 sm:flex-row sm:justify-between py-4 text-black text-[18px] font-medium border-b border-solid border-black">
+                               <div>Bulloneria:</div>
+                               <div>m10x25 acciaio inox aisi 304</div>
+                           </div>
+                       </div>
+
+                   </div>
+               </div>
+               <div class="collapse collapse-arrow rounded-none border-b border-solid border-red">
+                   <input type="radio" name="my-accordion-4">
+                   <div class="collapse-title text-[16px] sm:text-[18px] tex-dark-black p-0 pr-8 mb-4 relative after:opacity-0 before:absolute before:right-1 before:top-[9px] before:w-6 before:h-6 before:bg-[url('images/chevron-down-icon.svg')] before:bg-no-repeat before:bg-contain before:bg-center">
+                       <h4 class="text-[20px] sm:text-[24px] md:text-[32px] font-extrabold leading-normal uppercase">Indicazioni
+                           tecniche</h4>
+                       <p>Di seguito viene indicata l’altezza del muretto che consente l’allineamento superiore dei
+                           pannelli aventi altezze standard, con i cancelli pronti a magazzino.</p>
+                   </div>
+                   <div class="collapse-content p-0">
+                       <div class="mt-10 mb-6 sm:mt-16 sm:mb-12">
+                           <div class="flex flex-col lg:flex-row lg:items-center pb-4">
+                               <div class=" justify-center shrink-0 lg:w-1/5 pb-6 lg:pb-0 lg:pr-8">
+                                   <div class="flex lg:flex-col gap-4 lg:gap-2">
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza pannello</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">884</h4>
+                                       </div>
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza Muretto</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">791</h4>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="grow w-full h-full">
+                                   <div class="w-full relative pb-[34.31%]"><img class="w-full h-full object-contain absolute top-0 left-0" src="images/technical-indications-img-1.jpg" alt=""></div>
+                               </div>
+                           </div>
+                           <div class="flex flex-col lg:flex-row lg:items-center pb-4">
+                               <div class=" justify-center shrink-0 lg:w-1/5 pb-6 lg:pb-0 lg:pr-8">
+                                   <div class="flex lg:flex-col gap-4 lg:gap-2">
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza pannello</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">1183</h4>
+                                       </div>
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza Muretto</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">492</h4>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="grow w-full h-full">
+                                   <div class="w-full relative pb-[34.31%]"><img class="w-full h-full object-contain absolute top-0 left-0" src="images/technical-indications-img-2.jpg" alt=""></div>
+                               </div>
+                           </div>
+                           <div class="flex flex-col lg:flex-row lg:items-center pb-4">
+                               <div class=" justify-center shrink-0 lg:w-1/5 pb-6 lg:pb-0 lg:pr-8">
+                                   <div class="flex lg:flex-col gap-4 lg:gap-2">
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza pannello</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">1382</h4>
+                                       </div>
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza Muretto</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">293</h4>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="grow w-full h-full">
+                                   <div class="w-full relative pb-[34.31%]"><img class="w-full h-full object-contain absolute top-0 left-0" src="images/technical-indications-img-3.jpg" alt=""></div>
+                               </div>
+                           </div>
+                           <div class="flex flex-col lg:flex-row lg:items-center pb-4">
+                               <div class=" justify-center shrink-0 lg:w-1/5 pb-6 lg:pb-0 lg:pr-8">
+                                   <div class="flex lg:flex-col gap-4 lg:gap-2">
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza pannello</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">1582</h4>
+                                       </div>
+                                       <div class="text-[16px] sm:text-[18px]">
+                                           <p>Altezza Muretto</p>
+                                           <h4 class="text-[28px] sm:text-[48px] font-bold text-red">93</h4>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="grow w-full h-full">
+                                   <div class="w-full relative pb-[34.31%]"><img class="w-full h-full object-contain absolute top-0 left-0" src="images/technical-indications-img-4.jpg" alt=""></div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="collapse collapse-arrow rounded-none border-b border-solid border-red w-full">
+                   <input type="radio" name="my-accordion-4">
+                   <div class="collapse-title text-[16px] sm:text-[18px] tex-dark-black p-0 pr-8 mb-4 relative after:opacity-0 before:absolute before:right-1 before:top-[9px] before:w-6 before:h-6 before:bg-[url('images/chevron-down-icon.svg')] before:bg-no-repeat before:bg-contain before:bg-center">
+                       <h4 class="text-[20px] sm:text-[24px] md:text-[32px] font-extrabold leading-normal uppercase">Altezze
+                           disponibili</h4>
+                       <p>Le dimensioni standard dei pannelli di Linear® Orizzontale sono riportate in tabella. Su
+                           richiesta del cliente, si realizzano anche pannelli aventi misure speciali.</p>
+                   </div>
+                   <div class="collapse-content p-0 min-w-full">
+                       <div class="w-full overflow-x-auto mt-5 md:mt-10 mb-6 sm:mt-16 sm:mb-12">
+                           <table class="table w-full">
+                               <thead>
+                                   <tr class="border-b border-solid border-black text-[16px] md:text-[18px] font-medium text-black text-center">
+                                       <th class="w-1/4">Interasse piantane</th>
+                                       <th class="w-1/4">Larghezza pannello</th>
+                                       <th class="w-1/4">Altezza pannello</th>
+                                       <th class="w-1/4">altezza totale sopra muretto</th>
+                                   </tr>
+                               </thead>
+                               <tbody>
+                                   <tr class="border-b border-solid border-black text-[16px] md:text-[18px] text-center">
+                                       <td class="py-4">1998</td>
+                                       <td class="py-4">1980</td>
+                                       <td class="py-4">884</td>
+                                       <td class="py-4">938</td>
+                                   </tr>
+                                   <tr class="border-b border-solid border-black text-[16px] md:text-[18px] text-center">
+                                       <td class="py-4">1998</td>
+                                       <td class="py-4">1980</td>
+                                       <td class="py-4">1183</td>
+                                       <td class="py-4">1238</td>
+                                   </tr>
+                                   <tr class="border-b border-solid border-black text-[16px] md:text-[18px] text-center">
+                                       <td class="py-4">1998</td>
+                                       <td class="py-4">1980</td>
+                                       <td class="py-4">1382</td>
+                                       <td class="py-4">1437</td>
+                                   </tr>
+                                   <tr class="border-b border-solid border-black text-[16px] md:text-[18px] text-center">
+                                       <td class="py-4">1998</td>
+                                       <td class="py-4">1980</td>
+                                       <td class="py-4">1582</td>
+                                       <td class="py-4">1637</td>
+                                   </tr>
+                               </tbody>
+                           </table>
+                       </div>
+                   </div>
+               </div>
+           </div>
+         </div>
+      </div>
+      <!-- !! ===============================  Accordation Container END HERE ========================== !! -->
+      <!-- !! ===============================  FOOTER end HERE ========================== !! --> 
+      <footer id="footer" class="bg-red text-white">
+         <div class="container px-4 mx-auto">
+            <div class="footer-upper text-center md:text-left">
+               <div class="footer-main py-8 xl:py-16 lg:flex lg:flex-wrap">
+                  <div class="footer-logo-area shrink-0  flex items-center justify-center md:items-start md:justify-start">
+                     <a href="#!" class="footer-logo w-[80px] 2xl:w-[90px] block"><img src="images/footer-logo.svg" alt="footer Logo"></a>
+                  </div>
+                  <div class="footer-menu-box grow lg:ps-8 mt-6 lg:mt-0">
+                     <div class="footer-menu-inside w-full flex flex-col md:flex-row justify-between lg:justify-start max-w-[1290px] ms-auto gap-2 lg:gap-4 xl:gap-8">
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">azienda</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Chi siamo</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Storia</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Sostenibilità</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">prodotti</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Recinzioni e cancelli</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Telai</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Pensiline</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Rompitratta</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Grigliati</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Pannelli</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Grate</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Gradini</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Ancoraggi</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">Settori</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Campi da calcio</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Ospedali</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Industria</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Piattaforme offshore</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Edilizia residenziale</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Edilizia commerciale</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col mb-4 md:mb-0 lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">Servizi e strumenti</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Servizi</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Portata griglie</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-menu-col lg:w-full lg:max-w-[232px]">
+                           <div class="footer-menu-head uppercase text-sm mb-4">servizio clienti</div>
+                           <ul class="footer-menu-list md:mb-[-8px]">
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Contatti</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Richiedi un preventivo</a></li>
+                              <li class="mb-[8px] leading-[23px]"><a href="#!" class="text-base leading-[23px] font-medium hover:underline">Domande frequenti</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer-nav-row border-t py-8 flex items-start lg:items-center lg:justify-between flex-col lg:flex-row">
+                  <div class="footer-nav w-full md:w-fit">
+                     <ul class="footer-nav-list flex flex-col md:flex-row md:justify-between md:items-center gap-2 md:gap-6 lg:gap-8">
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Utilizzo dei cookie</a></li>
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Normativa sulla Privacy</a></li>
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Termini e condizioni</a></li>
+                        <li class="text-sm leading-[21px] font-normal"><a href="#!" class="leading-none hover:underline">Tempi di consegna</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer-social-box mt-6 lg:mt-0 self-center md:self-start">
+                     <ul class="footer-social-list flex items-center justify-between gap-6">
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="text-2xl leading-none"><a href="#!" class="hover:opacity-75 transition-opacity"><i class="fa-brands fa-pinterest"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-lower xl:pt-8 text-center md:text-left pb-6 flex md:items-start xl:items-center xl:justify-between flex-col xl:flex-row">
+               <div class="footer-desc text-sm">LIBRA Industriale s.p.a.Strada Cardio, 12/1447899 SerravalleRepubblica di S.Marino - Tel. <a href="tel:+390549872811" class="hover:underline">+39 0549 872811</a></div>
+               <div class="copyright text-sm mt-4 2xl:mt-0">Copyright &copy;2023 Libra Industriale s.p.a. | Design with <span class="underline">love</span> by <a href="#!" class="underline hover:no-underline">thetailors.it</a></div>
+            </div>
+         </div>
+      </footer>
+      <!-- !! ===============================  FOOTER end HERE ========================== !! -->
+      <!-- !! ===============================  Request Quote Modal START HERE ========================== !! -->
+      <dialog id="my_modal_3" class="modal">
+         <div class="modal-box max-w-full max-h-full w-full h-full rounded-none p-0">
+            <form method="dialog">
+               <button class="w-5 h-5 sm:w-6 sm:h-6 absolute right-5 top-5 sm:right-8 sm:top-8"><img class="w-full h-full object-contain" src="images/close-icon.svg" alt=""></button>
+            </form>
+            <div class="contact-container pt-16 pb-8 lg:pt-20 lg:pb-12">
+               <div class="container px-4 mx-auto">
+                  <div class="max-w-[1288px] mx-auto">
+                     <div class="text-[16px] sm:text-[18px] text-dark-black mb-11">
+                        <h3 class="text-[24px] lg:text-[38px] xl:text-[48px] font-bold mb-4 sm:mb-[34px] text-dark-black">Richiedi un preventivo</h3>
+                        <p>Compila il form, saremi lieti di rispondere a tutte le tue necessità nel minor tempo possibile. </p>
+                     </div>
+                     <form>
+                        <div class="flex flex-wrap gap-x-[34px] gap-y-4 mb-4 ">
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Nome" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Cognome" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                        </div>
+                        <div class="flex flex-wrap gap-x-[34px] gap-y-4 mb-4">
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Azienda" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Città" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                        </div>
+                        <div class="flex flex-wrap gap-x-[34px] gap-y-4 mb-4">
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Email" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                           <div class="form-group grow">
+                              <label class="form-control">
+                              <input type="email" placeholder="Telefono" class="outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" />                     
+                              </label>
+                           </div>
+                        </div>
+                        <div class="form-group mb-4">
+                           <label class="form-control">
+                              <select class="appearance-none bg-[url('images/chevron-down-icon.svg')] bg-no-repeat bg-[center_right_19px] bg-[length:24px_12px] outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] pe-14 text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" >
+                                 <option value="">Preferisco essere contattato per telefono</option>
+                                 <option value="">Option 1</option>
+                                 <option value="">Option 2</option>
+                              </select>
+                           </label>
+                        </div>
+                        <div class="form-group">
+                           <label class="form-control">
+                           <textarea placeholder="Scrive qui il vostro messaggio" class="h-[180px] sm:h-[256px] resize-none outline-0 border border-[2px] border-grey rounded-none bg-grey px-[32px] py-[16px] text-[20px] leading-[28px] placeholder-dark-black-500 focus:border-black focus:rounded-none" ></textarea>                    
+                           </label>
+                        </div>
+                        <div class="flex flex-wrap gap-6 mt-9">
+                           <div class="grow">
+                              <div class="max-w-[740px]">
+                                 <label class="w-full relative inline-block pl-[33px]">
+                                    <span class="custom-checkbox absolute top-0 left-0 w-[24px] h-[24px]">
+                                    <input class="absolute opacity-0" type="checkbox" id="agree" name="agree">
+                                    <span class="checkmark absolute top-0 left-0 w-full h-full bg-grey  
+                                       after:absolute after:hidden after:w-[14px] after:h-[14px] after:bg-red after:top-1/2 after:-translate-y-1/2
+                                       after:left-1/2 after:-translate-x-1/2 "></span>
+                                    </span>
+                                    <div class="text-xs leading-[1.5]">Autorizzo Il Trattamento Dei Dati Personali Ai Sensi Dell'art.13 Del Regolamento UE 679/2016 (GDPR) <a href="#!" class="underline hover:no-underline">Informativa Privacy</a>. Questo sito è protetto da reCAPTCHA e si applicano le norme sulla privacy di Google e <a href="#!" class="underline hover:no-underline">Termini di servizio</a>.</div>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="shrink-0 min-w-full sm:min-w-fit">
+                              <button type="submit" class="bg-red text-white p-7 sm:py-[28px] sm:pl-[66px] sm:pr-[120px] spring-link w-full">
+                              <span class="text-[20px] leading-[1.2] font-bold text-white relative inline-block after:w-full after:h-[2px] after:bg-white after:absolute after:bottom-0 after:left-0">
+                              Invia
+                              <span class="spring-link-arrow h-[16px] ms-[20px] absolute left-full inline-block  h-[16px] top-1/2 -translate-y-1/2">
+                              <span class="absolute right-[2px] top-1/2 w-[12px] h-[12px] border-r-2 border-t-[2px] border-solid border-white transform -translate-y-1/2 rotate-45"></span>
+                              <span class="absolute left-0 top-1/2 w-96% h-[2px] bg-white transform -translate-y-1/2"></span>
+                              </span>                
+                              </span>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </dialog>
+      <!-- !! ===============================  Request Quote Modal START HERE ========================== !! -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="custom.js"></script>     
+   </body>
+</html>
